@@ -1,0 +1,128 @@
+.navbar-dark{
+    background-color: black;
+}
+
+.navbar-light{
+    border-bottom: 1px solid grey;
+}
+
+
+body{
+    background: white;
+}
+
+
+.logoSeach{
+    align-self: center;
+    color: grey;
+    /* padding: 10px; */
+}
+
+.logoSeach:hover{
+    color: whitesmoke;
+}
+
+
+.dropdown-menu{
+    margin-top: 12px !important;
+    margin-left: -56px;
+}
+
+
+.dimensionSvg{
+    width: 21px;
+    height: 21px;
+    
+}
+
+.ColorTextBlue{
+    color: #06c;
+}
+
+.nav-link{
+    color: grey;
+}
+
+.dropdown-toggle:hover{
+    color: whitesmoke;
+}
+
+.dropdown.logoSeach.bag{
+    padding-left: 20px;
+} 
+
+.navbar-left {
+    float: left;
+    margin-left: 10px;
+  }
+
+.navbar-white{
+    background-color: red;
+}
+
+.imgMacBookPro{
+    width: 100%;
+}
+
+.list-nobullet{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.scroll-container {
+    height: 100vh;
+    background: black;
+  }
+  .speak {
+    margin: 150vh 0;
+    &:first-child {
+      margin-top: -50vh;
+    }
+  }
+  
+  .speak[data-scroll] {
+    // transition: opacity .3s;
+    transform: translatey(calc(var(--viewport-y) * 30vh));
+    opacity: calc(var(--visible-y));
+    
+  }
+  
+  .scroll-sequence__content {
+    padding: 4em;
+  }
+  .scroll-sequence {
+    position: sticky;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -5;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  h1 {
+    font-size: 3em;
+    width: 60wv;
+    margin-bottom: 10px;
+    @media screen and (max-width: 600px) {
+      font-size: 2em;
+      width: 100%;
+    }
+  }
+  
+  :root {
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    text-shadow: 0 0 12px rgba(black, .8);
+  }
+  body {
+    margin: 0;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
